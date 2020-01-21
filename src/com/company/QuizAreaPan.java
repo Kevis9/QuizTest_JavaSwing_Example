@@ -2,7 +2,8 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.concurrent.Flow;
+import java.awt.image.BufferedImage;
+//import java.util.concurrent.Flow;
 
 
 public class QuizAreaPan {
@@ -35,9 +36,9 @@ public class QuizAreaPan {
     }
 
     //设置图片
-    public void addImg(String imgPath)
+    public void addImg(BufferedImage bimg)
     {
-        ImageIcon img = new ImageIcon(imgPath);
+        ImageIcon img = new ImageIcon(bimg);
         img.setImage(img.getImage().getScaledInstance(200,200, Image.SCALE_SMOOTH));//设置图片的大小和缩放模式
         JLabel label = new JLabel(img);
         label.setBounds(0,0,200,200);

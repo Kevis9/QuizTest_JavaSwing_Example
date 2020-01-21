@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b20c0d72-054c-4a98-97ca-a69b1b573766" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b20c0d72-054c-4a98-97ca-a69b1b573766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuizTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/META-INF/QuizTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/com/company/ButtonView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuizTest/com/company/ButtonView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuizTest/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/com/company/NavigationBar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/com/company/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuizTest/com/company/NavigationBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuizTest/com/company/QuizAreaPan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuizTest/com/company/QuizAreaPan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ButtonView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ButtonView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/NavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/QuizAreaPan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/QuizAreaPan.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,29 +29,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WcIIISuOkTgYOlw0H5GMhOnxX5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib/Spire.Doc.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -56,6 +75,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,10 +98,66 @@
       <option name="presentableId" value="Default" />
       <updated>1579442374663</updated>
       <workItem from="1579442376432" duration="13011000" />
+      <workItem from="1579537434751" duration="1080000" />
+      <workItem from="1579568705811" duration="6190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1579537485614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579537485614" />
+    <state x="474" y="119" key="FileChooserDialogImpl" timestamp="1579538239339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579538239339" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579575970466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579575970466" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579575970466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579575970466" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579575970466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579575970466" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579575970466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579575970466" />
+    <state width="1286" height="203" key="GridCell.Tab.1.bottom" timestamp="1579538523475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579538523475" />
+    <state width="1286" height="203" key="GridCell.Tab.1.center" timestamp="1579538523475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1579538523475" />
+    <state width="1286" height="203" key="GridCell.Tab.1.left" timestamp="1579538523475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1579538523475" />
+    <state width="1286" height="203" key="GridCell.Tab.1.right" timestamp="1579538523475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579538523475" />
+    <state x="174" y="0" key="SettingsEditor" timestamp="1579538245831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="174" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579538245831" />
+    <state x="374" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1579568717054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="169" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579568717054" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579575885995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579575885995" />
   </component>
 </project>

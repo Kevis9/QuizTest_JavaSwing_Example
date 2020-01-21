@@ -2,11 +2,11 @@ package com.company;
 
 import javax.swing.*;
 public class ButtonView {
-    JButton btn1;   //微课
-    JButton btn2;   //确认本题的选择
-    JButton btn3;   //查看答案
-    JButton btn4;   //上一题
-    JButton btn5;   //下一题
+    public JButton btn1;   //微课
+    public JButton btn2;   //确认本题的选择
+    public JButton btn3;   //查看答案
+    public JButton btn4;   //上一题
+    public JButton btn5;   //下一题
     ButtonView(JPanel pan)
     {
         btn1 = new JButton("微课视频");
@@ -29,12 +29,12 @@ public class ButtonView {
         //开始布局
         label.setBounds(600,100,120,20);
         btn1.setBounds(700,100,80,20);
-        radioBtn01.setBounds(500,650,30,20);
-        radioBtn02.setBounds(535,650,30,20);
-        btn2.setBounds(565,650,100,20);
-        btn3.setBounds(675,650,100,20);
-        btn4.setBounds(565,680,100,40);
-        btn5.setBounds(675,680,100,40);
+        radioBtn01.setBounds(500,620,30,20);
+        radioBtn02.setBounds(535,620,30,20);
+        btn2.setBounds(565,620,100,20);
+        btn3.setBounds(675,620,100,20);
+        btn4.setBounds(565,650,100,40);
+        btn5.setBounds(675,650,100,40);
         pan.add(label);
         pan.add(btn1);
         pan.add(radioBtn01);
