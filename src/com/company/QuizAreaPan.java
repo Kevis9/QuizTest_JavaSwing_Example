@@ -31,7 +31,7 @@ public class QuizAreaPan {
         //添加到主面板中
         pan.add(scrollPan);
     }
-
+    
     //设置题目
     public void setTextAreaText(String str)
     {

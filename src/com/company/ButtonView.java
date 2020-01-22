@@ -9,6 +9,7 @@ public class ButtonView {
     public JButton btn5;   //下一题
     ButtonView(JPanel pan)
     {
+
         btn1 = new JButton("微课视频");
         btn2 = new JButton("确认本题选择");
         btn3 = new JButton("查看本题答案");

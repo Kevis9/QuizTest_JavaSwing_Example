@@ -112,15 +112,25 @@ public class Main {
                 pan.remove(quizpan.scrollPan);
                 quizpan = new QuizAreaPan(pan);
                 //显示题号对应的题目
-
                 quizpan.setTextAreaText(chapter.ques.get(que_number).content);
-//                quizpan.setTextAreaText("hahahahahhaha");
-                //将题目对应的图片加上去
 
+                //将题目对应的图片加上去
                 for(int i=0;i<chapter.ques.get(que_number).img_num;i++)
                 {
                     quizpan.addImg(chapter.ques.get(que_number).imgs.get(i));
                 }
+            }
+        });
+        //点击查看答案
+        btnview.btn3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //进行面板刷新
+                pan.remove(quizpan.scrollPan);
+                quizpan = new QuizAreaPan(pan);
+                //显示题号对应的题目
+                quizpan.setTextAreaText(chapter.ques.get(que_number).ans);
+
             }
         });
 
@@ -177,8 +187,10 @@ public class Main {
                 else{
                     //装载问题文本到问题中
                     Question que =  new Question();
-                    que.content = paragraph.getText();
-                    que.img_num = Integer.parseInt(que.content.substring(que.content.indexOf("<图片数")+4,que.content.indexOf("图片数>")));
+                    String tmp = paragraph.getText();
+                    que.content = tmp.substring(0,tmp.indexOf("<图片数"));
+                    que.ans = tmp.substring(tmp.indexOf("答案"),tmp.length());
+                    que.img_num = Integer.parseInt(tmp.substring(tmp.indexOf("<图片数")+4,tmp.indexOf("图片数>")));
                     for(int j=0;j<que.img_num;j++)
                     {
                         que.imgs.add(images.get(index));
